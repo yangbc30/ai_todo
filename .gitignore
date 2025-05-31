@@ -1,0 +1,41 @@
+# Node.js 和 React Native
+node_modules/
+npm-debug.log
+yarn-error.log
+*.log
+
+# React Native 构建产物
+android/app/build/
+android/build/
+ios/build/
+*.apk
+*.aab
+
+# FastAPI 和 Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+venv/
+env/
+*.env
+
+# 临时文件
+*.tmp
+*.bak
+*.swp
+
+# IDE 和编辑器
+.vscode/
+.idea/
+*.sublime*
+
+# macOS 和 Windows 系统文件
+.DS_Store
+Thumbs.db
+
+# 其他
+coverage/
+dist/
+*.lock
